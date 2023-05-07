@@ -1,0 +1,47 @@
+
+@media only screen and (max-width: 1126px) {
+    .nav-list {
+        margin-top: 7px;
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 400px;
+        transition: all 0.5s ease-out;
+    }
+
+    .right-nav {
+        text-align: center;
+    }
+
+    .box-main{
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+    #search {
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+    	height: 65px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .paras{
+        padding: 0px;
+    }
+
+
+}

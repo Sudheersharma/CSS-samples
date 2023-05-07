@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    cursor: pointer;
+    top: 0;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.logo img {
+    border-radius: 50px;
+    border: 2px solid aqua;
+    width: 40%;
+}
+
+.nav-list {
+    align-items: center;
+    font-size: 16px;
+    display: flex;
+    width: 70%;
+}
+
+.nav-list li {
+    padding: 20px 30px;
+    list-style: none;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-list li a:hover {
+    color: gray;
+}
+
+.right-nav {
+    padding: 0px 23px;
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    border-radius: 50px;
+    border: 2px solid white;
+    
+    padding: 1px;
+   
+}
+
+.background {
+    /* background: darkcyan; */
+    background: rgba(0, 0, 0, 0.7) url('../img/bg.JPG');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+
+.firstsec {
+    background-size: cover;
+    height: 100vh;
+}
+
+.box-main {
+    margin: auto;
+    max-width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    display: flex;
+}
+
+.firsthalf {
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    display: flex;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    border-radius: 200px;
+    margin: auto;
+    display: block;
+    border: 2px solid white;
+    width: 70%;
+}
+
+.btn {
+    color: white;
+    background: none;
+    font-size: 20px;
+    border-radius: 18px;
+    margin: 7px;
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 8px 20px;
+}
+
+.btn a {
+color: white;
+font-style: normal;
+}
+
+.btn a:hover{
+color: black;
+background-color: white;
+}
+.btn:hover {
+    color: gray;
+    background-color: white;
+}
+
+.taxt-big {
+    font-size: 50px;
+}
+
+.taxt-small {
+    font-size: 25px;
+}
+
+
+.btn-ms {
+    padding: 6px 10px;
+    
+    font-size: 12px;
+}
+
+.section {
+    padding: 30px;
+    max-width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 10px;
+    height: auto;
+}
+
+.paras {
+    padding: 0px 65px;
+}
+
+.imgfluid {
+    width: 200px;
+}
+
+
+.left {
+    flex-direction: row-reverse;
+}
+
+.thumbnall img {
+    border-radius: 5px;
+    margin-top: 15px;
+    border: 2px solid darkcyan;
+}
+
+.contact {
+    margin-top: 30px;
+    height: 650px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    font-size: 30px;
+    background-color: rgba(250, 235, 215, 0.527);
+}
+
+.taxt-center {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.form {
+    max-width: 62%;
+    margin: auto;
+}
+
+.form input {
+    padding: 5px 3px;
+    margin: 15px 0px;
+    border-radius: 6px;
+    border: 2px solid gray;
+    font-size: 18px;
+    width: 60%;
+}
+
+.form textarea {
+    padding: 5px 3px;
+    margin: 15px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 6px;
+    border: 2px solid gray;
+    font-size: 18px;
+    max-width: 60%;
+}
+
+.btn-dark {
+    border-radius: 12px;
+    padding: 6px 10px 6px 10px;
+    border: 2px solid gray;
+    font-size: 10pxpx;
+    cursor: pointer;
+    display: flex;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.btn-dark:hover {
+    background-color: lightgray;
+    border-radius: 12px;
+    padding: 6px 10px 6px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    color: black;
+}
+
+.taxt-footer {
+    font-size: 17px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 30px 0;
+    justify-content: center;
+    display: flex;
+}
+
+.burger {
+    display: none;
+    top: 15px;
+    right: 5%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.line {
+    margin: 5px 3px;
+    height: 4px;
+    background-color: white;
+    width: 33px;
+}
+
+.about{
+    margin: auto;
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.ab{
+    margin: auto;
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+

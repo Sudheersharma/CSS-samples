@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.title{
+    margin-left: 278px;
+    display: flex;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+
+}
+.container h3{
+    margin-left: 20px;
+    color: rgb(243, 243, 165);
+    font-size: 35px;
+}
+.container h4{
+    font-size: 25px;
+}
+.container h4, h6, p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+.name{
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+ 
+input, textarea {
+    color: white;
+    background: none;
+width: 80%;
+margin: 15px;
+font-size: 16px;
+border: 2px solid white;
+border-radius: 5px;
+padding: 6px;
+outline: none;
+}
+
+
+.g-pass{
+    margin-left: 255px;
+    width: 59%;
+}
+.btn{
+    margin-left: 271px;
+    margin-top: 12px;
+    padding: 6px 12px;
+    color: white;
+    background: none;
+    font-size: 16px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 11px;
+}
+.btn:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.904);
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    
+}
+.account{
+    color: lightyellow;
+    font-size: 16px;
+}
+.account a{
+    color: aqua;
+}
+.account a:hover{
+    color: blue;
+}
+.policy{
+    font-size: 10px;
+    color: whitesmoke;
+    margin-top: 35px;
+}

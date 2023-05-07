@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ***********************************************NAVBAR************************************************** */
+
+.nav{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #deece991;
+}
+
+.left-nav{
+    background-color: #deece991;
+    width: 30%;
+    height: 100px;
+}
+.right-nav{
+    background-color: #deece991;
+    width: 70%;
+    height: 100px;
+}
+
+.logo{
+    width: 75px;
+    border-radius: 100%;
+    margin-left: 250px;
+    margin-top: 12px;
+}
+
+.logo:hover{
+   display: none;
+}
+
+.right-nav-list{
+    align-items: center;
+    font-size: 16px;
+    display: flex;
+    margin-left: 22%;
+    width: 70%;
+}
+    
+.right-nav-list li{
+    list-style: none;
+    padding: 20px 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #11999e;
+    font-family: cursive;
+}
+
+.right-nav-list li a{
+    text-decoration: none;
+    color: #11999e;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.right-nav-list li a:hover {
+    text-decoration: none;
+    color: #abcecf;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+/* ********************************************HOME PAGE**************************************************** */
+/* ____________________________________top-container________________________________ */
+
+.top-container {
+    background-color: #deece991;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloude {
+    position: absolute;
+    right: 300px;
+    top: 70px;
+}
+
+.bottom-cloude {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 4rem;
+    color: #66bfbf;
+}
+
+
+h2 {
+    font-family: cursive;
+    font-size: 1.8em;
+    color: #66bfbf;
+}
+
+h3{
+    font-family: cursive;
+    font-size: 1.2em;
+    color: #66bfbf; 
+}
+
+p{
+    font-family: cursive;
+    color: #349494;
+}
+
+/* __________________________________middle-container_________________________________ */
+
+.middle-container{
+    margin: 100px auto 100px auto;
+}
+
+.profile-picture {
+    width: 150px;
+}
+
+.intro {
+    width: 40%;
+    margin: auto;
+    line-height: 2;
+}
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.size-img {
+    height: 200px;
+    border-radius: 100%;
+}
+
+.code-skill-discription{
+    width: 40%;
+    margin: auto;
+    line-height: 2;
+}
+
+.skill-row{
+    margin: 100px auto;
+}
+
+/* **********************************bottom-container***************************************** */
+
+.contact-discription{
+    width: 40%;
+    margin: auto;
+    padding-bottom: 50px;
+    line-height: 2;
+}
+
+.btn {
+    background: #11cdd4;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #349494;
+    color: #eaf6f6;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px
+}
+
+.footer-link{
+    color: #11999e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 20px;
+    text-decoration: none
+}
+
+.footer-link:hover{
+    color: #eef6f7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
